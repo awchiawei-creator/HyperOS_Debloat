@@ -2,5 +2,5 @@ package com.miui.debloater;
 
 interface IShellService {
     void destroy() = 16777114;
-    String exec(String command);
+    String exec(String command) = 1;
 }
